@@ -1,0 +1,78 @@
+v Talleres
+v San-Bernabe
+v Unidad-Modelo
+v Aztlan
+v Penitenciaria
+v Alfonso-Reyes
+v Mitras
+v Simon-Bolivar
+v Hospital
+v Edison
+v Central
+v Cuauhtemoc
+v Del-Golfo
+v Felix-U-Gomez
+v Parque-Fundidora
+v Y-Griega
+v Eloy-Cavazos
+v Lerdo-de-Tejada
+v Exposicion
+v Sendero
+v Santiago-Tapia
+v San-Nicolas
+v Anahuac
+v Universidad
+v Ninos-Heroes
+v Regina
+v General-Anaya
+v Alameda
+v Fundadores
+v Padre-Mier
+v General-Zaragoza
+v Hospital-Metropolitano
+v Los-Angeles
+v Ruiz-Cortines
+v Violeta
+v Conchello
+v Adolfo-Prieto
+v Santa-Lucia
+
+
+e Talleres San-Bernabe 1
+e San-Bernabe Unidad-Modelo 2
+e Unidad-Modelo Aztlan 3
+e Aztlan Penitenciaria 4
+e Penitenciaria Alfonso-Reyes 5
+e Alfonso-Reyes Mitras 6
+e Mitras Simon-Bolivar 7
+e Simon-Bolivar Hospital 8
+e Hospital Edison 9
+e Edison Central 10
+e Central Cuauhtemoc 11
+e Cuauhtemoc Del-Golfo 12
+e Del-Golfo Felix-U-Gomez 13
+e Felix-U-Gomez Parque-Fundidora 14
+e Parque-Fundidora Y-Griega 15
+e Y-Griega Eloy-Cavazos 16
+e Eloy-Cavazos Lerdo-de-Tejada 17
+e Lerdo-de-Tejada Exposicion 18
+e Sendero Santiago-Tapia 19
+e Santiago-Tapia San-Nicolas 20
+e San-Nicolas Anahuac 21
+e Anahuac Universidad 22
+e Universidad Ninos-Heroes 23
+e Ninos-Heroes Regina 24
+e Regina General-Anaya 25
+e General-Anaya Cuauhtemoc 26
+e Cuauhtemoc Alameda 27
+e Alameda Fundadores 28
+e Fundadores Padre-Mier 29
+e Padre-Mier General-Zaragoza 30
+e General-Zaragoza Santa-Lucia 31
+e Santa-Lucia Adolfo-Prieto 32
+e Adolfo-Prieto Felix-U-Gomez 33
+e Felix-U-Gomez Conchello 34
+e Conchello Violeta 35
+e Violeta Ruiz-Cortines 36
+e Ruiz-Cortines Los-Angeles 37
+e Los-Angeles Hospital-Metropolitano 38
