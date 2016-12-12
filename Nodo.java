@@ -17,12 +17,14 @@ public class Nodo  implements Comparator<Nodo>, Comparable<Nodo>{
     public String val;
     public String padre;
     public double peso;
+    public ArrayList<Integer> estaciones;
     public HashSet<Arista> adj;
     
     public Nodo(String s) {
         val = s;
         adj = new HashSet<>();
         padre= null;
+        estaciones = new ArrayList<>();
     }
     Nodo(){
     }
@@ -41,15 +43,16 @@ public class Nodo  implements Comparator<Nodo>, Comparable<Nodo>{
         this.adj.add(x);
     }
     
+    public void agregarLinea(int x) {
+        this.estaciones.add(x);
+    }
     public void agregarAdyacentes(HashSet<Arista> xs) {
         this.adj.addAll(xs);
     }
     
     public void imprimirNod(){
         String imp = this.val;
-        for(Arista a:adj){
-            imp += "\n "+a.nodo.val+" "+Double.toString(a.distancia);
-        }
+        imp += " "+this.peso;
         System.out.println(imp+"\n");
     }
     

@@ -12,20 +12,14 @@ package proyia;
 public class Arista {
     public final Nodo nodo;
     public final double distancia;
-    public final double trasbordo;
-    public final double escaleras;
     
     Arista(Nodo n, double d) {
         this.nodo = n;
         this.distancia = d;
-        this.trasbordo = 0;
-        this.escaleras = 0;
     }
     
     Arista(Nodo n, double d, double tra, double esc) {
         this.nodo = n;
         this.distancia = d;
-        this.trasbordo = tra;
-        this.escaleras = esc;
     }
 }
