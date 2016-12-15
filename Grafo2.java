@@ -72,13 +72,34 @@ public class Grafo2 {
         }
     }
     
-    public ArrayList<String> aEstrella (String inicio, String fin){
+    public ArrayList<String> aEstrella (String inicio, String fin) throws FileNotFoundException{
         Nodo n = this.buscarNodo(inicio);
         Nodo f = this.buscarNodo(fin);
         Nodo aux;
         int costoCambio12 = 10;
-        int costoCambio13 = 10;
-        int costoCambio23 = 10;
+        int costoCambio13 = 11;
+        int costoCambio23 = 17;
+        String ruta = "C:\\Users\\Ricardo\\Documents\\NetBeansProjects\\ProyIA\\src\\proyia\\dataTiempos.data";
+        Scanner input = new Scanner ( new File (ruta));
+        while (input.hasNext()) {
+            switch (input.next()) {
+                case "l12":
+                {
+                    costoCambio12 = Integer.parseInt(input.next());
+                    break;
+                }
+                case "l13":
+                {
+                    costoCambio13 = Integer.parseInt(input.next());
+                    break;
+                }
+                case "l23":
+                {
+                    costoCambio23 = Integer.parseInt(input.next());
+                    break;
+                }
+            }
+        }
         ArrayList<Integer> lineas = null;
         int linea = -1;
         ArrayList<String> finals = new ArrayList<String>();
